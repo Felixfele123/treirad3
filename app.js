@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 const server = http.createServer(app);
 // Set static folder
-app.use(express.static("../client"));
+app.use(express.static("client"));
 
 
 const PORT = process.env.PORT || 8080;
